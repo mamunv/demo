@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arvo", serif;
+    font-weight: 500;
+    font-style:normal;
+}
+nav.flex{
+    display: flex;
+    list-style: none;
+    background-color: #222;
+    font-size: 1em; 
+    position: fixed;
+    width: 100%;
+}
+.flex li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 30px;
+    display: block;
+}
+.flex li a:hover:not(.active){
+    background-color: #f1f1f1;
+    color: #333;
+}
+.flex li a.active{
+    background-color: #04AA6D;
+}
+.home img{
+  width: 100%;
+  height: 89vh; 
+  background-size:cover;
+}
+div.team{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: center;    
+}
+div.member{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+    padding-bottom: 15px; 
+}
+span.title{
+    display: block;
+    padding: 60px 0px 40px 0px;
+}
+p.tm{
+    font-size: 10px;
+    padding: 4px;
+}
+div.work{
+    background-color: #222;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-evenly;
+}
+div.one{
+    padding-top: 20px;
+    color: #f1f1f1;
+    width: 25%;
+    text-align: justify;
+}
+img.demo{
+    width: 100%;
+}
+div.on{
+    background-color: #f1f1f1;
+    width: 24%;
+    box-sizing: border-box;
+}
+div.on h3{
+    padding: 10px 0px 0px 10px;
+}
+div.on p{
+    padding: 10px;
+    text-align: justify;
+}
+div.price{
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+}
+div.price span{
+    display: block;
+    text-align:center;
+    background-color:#f1f1f1;
+    padding: 55px 0 40px 0;
+    line-height: 35px;
+}
+div.flx{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+div.oops ul {
+    list-style: none;
+    width:490px;
+    text-align: center;   
+}
+div.oops ul:hover{
+    box-shadow: #333 0px 0px 8px 0px;
+}
+div.oops ul li{
+    padding: 15px;
+    border-bottom: 1px solid #f1f1f1; 
+    border-right: 0.5px solid #f1f1f1;
+    border-left: 0.5px solid #f1f1f1;
+
+}
+div.oops li.ptitle{
+    background-color: #222;
+    padding: 30px;
+    font-size: 30px;
+    color: #fff;   
+}
+div.oops li.pro{
+    background-color:#444 ;
+    padding: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+div.oops li:last-child {
+    padding: 30px;
+    background-color:#f1f1f1;
+    border-bottom: none;
+}
+div.oops li button{
+    background-color: #04AA6D;
+    border: none;padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+div.oops li button:hover{
+    background-color: #999;
+    color: #000;
+}
